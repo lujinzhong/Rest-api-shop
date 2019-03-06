@@ -1,0 +1,33 @@
+[ 2018-06-21T19:56:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] www.tp5.com/api/v1/token/user [运行时间：3.216051s][吞吐率：0.31req/s] [内存消耗：2,487.25kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059458s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034135s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o7ayV5HwrLtiFZiF-OrA595TwMFc' LIMIT 1 [ RunTime:0.000939s ]
+
+---------------------------------------------------------------
+[ 2018-06-21T19:56:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] www.tp5.com/api/v1/token/user [运行时间：1.416387s][吞吐率：0.71req/s] [内存消耗：2,487.26kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000870s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.018892s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o7ayV5HwrLtiFZiF-OrA595TwMFc' LIMIT 1 [ RunTime:0.000649s ]
+
+---------------------------------------------------------------
+[ 2018-06-21T20:13:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.502110s][吞吐率：1.99req/s] [内存消耗：2,773.36kb] [文件加载：73]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001222s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.038116s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.023420s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `name`='lu'  WHERE  `id` = 1 [ RunTime:0.060138s ]
+
+---------------------------------------------------------------
+[ 2018-06-21T20:19:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.176692s][吞吐率：5.66req/s] [内存消耗：2,811.57kb] [文件加载：73]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001210s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.027403s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.023902s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000726s ]
+
+---------------------------------------------------------------

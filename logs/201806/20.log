@@ -1,0 +1,168 @@
+[ 2018-06-20T20:02:54+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] www.tp5.com/api/v1/token/user [运行时间：7.150864s][吞吐率：0.14req/s] [内存消耗：2,481.80kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001228s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033870s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o7ayV5HwrLtiFZiF-OrA595TwMFc' LIMIT 1 [ RunTime:0.000761s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T20:38:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.439318s][吞吐率：2.28req/s] [内存消耗：2,514.62kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.028693s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.026458s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] INSERT INTO `user_address` (`name` , `mobile` , `province` , `city` , `country` , `detail` , `user_id`) VALUES ('xiaolu' , '15626425282' , '广东' , '广州' , '中国' , '大学城广州大学' , 1) [ RunTime:0.094256s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T20:40:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：1.562232s][吞吐率：0.64req/s] [内存消耗：2,511.65kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001021s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032513s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.026897s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `name`='mclink'  WHERE  `id` = 1 [ RunTime:1.195273s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T21:54:06+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.349145s][吞吐率：2.86req/s] [内存消耗：2,549.91kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002316s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.027940s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.027259s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000815s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T21:54:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.357599s][吞吐率：2.80req/s] [内存消耗：2,549.91kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000866s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.028244s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.025160s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000916s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T21:55:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.348025s][吞吐率：2.87req/s] [内存消耗：2,549.91kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000728s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.035116s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.023386s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000708s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T21:55:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.397932s][吞吐率：2.51req/s] [内存消耗：2,511.72kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000779s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.027065s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.022603s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `mobile`='15626425182'  WHERE  `id` = 1 [ RunTime:0.055549s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T21:56:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] www.tp5.com/api/v1/token/user [运行时间：2.277307s][吞吐率：0.44req/s] [内存消耗：2,483.95kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.025733s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o7ayV5HwrLtiFZiF-OrA595TwMFc' LIMIT 1 [ RunTime:0.000783s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T21:57:03+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：1.496290s][吞吐率：0.67req/s] [内存消耗：2,511.72kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000912s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.035196s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.021846s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `mobile`='15623358482'  WHERE  `id` = 1 [ RunTime:1.147889s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T21:59:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/11
+[ log ] www.tp5.com/api/v1/product/11 [运行时间：0.907178s][吞吐率：1.10req/s] [内存消耗：2,780.96kb] [文件加载：67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.035888s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.030112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product_image` [ RunTime:0.026764s ]
+[ sql ] [ SQL ] SELECT * FROM `product_image` WHERE  `product_id` = 11 ORDER BY `order`  asc [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.039852s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (19,20,21,22,23,24,25,26,27,29,28,62,63) [ RunTime:0.020699s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product_property` [ RunTime:0.032877s ]
+[ sql ] [ SQL ] SELECT * FROM `product_property` WHERE  `product_id` = 11 [ RunTime:0.000746s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T22:04:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.369314s][吞吐率：2.71req/s] [内存消耗：2,514.09kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001063s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.025928s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.022260s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `name`='1mclink'  WHERE  `id` = 1 [ RunTime:0.026359s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T22:04:57+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.340921s][吞吐率：2.93req/s] [内存消耗：2,552.55kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000788s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.025654s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.026322s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000919s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T22:05:18+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.339942s][吞吐率：2.94req/s] [内存消耗：2,552.55kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.029892s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.022234s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000700s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T22:06:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.360804s][吞吐率：2.77req/s] [内存消耗：2,552.55kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000819s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032229s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.027814s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000634s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T22:06:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.386609s][吞吐率：2.59req/s] [内存消耗：2,514.09kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000774s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.026005s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.022537s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] UPDATE `user_address`  SET `name`='mclink'  WHERE  `id` = 1 [ RunTime:0.047749s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T22:08:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.168011s][吞吐率：5.95req/s] [内存消耗：2,551.94kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.038515s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.021912s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001002s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T22:08:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.166860s][吞吐率：5.99req/s] [内存消耗：2,551.94kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000744s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.041680s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.023438s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000813s ]
+
+---------------------------------------------------------------
+[ 2018-06-20T22:09:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] www.tp5.com/api/v1/address [运行时间：0.153416s][吞吐率：6.52req/s] [内存消耗：2,551.94kb] [文件加载：65]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:dbname=webshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.028309s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.024654s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000712s ]
+
+---------------------------------------------------------------
